@@ -27,7 +27,7 @@
   padding: 5px 0;
 }
 .side-bar {
-  width: 250px;
+  width: 210px;
   background: #52047b;
   min-height: 100vh;
   transition: 500ms width;
@@ -41,13 +41,14 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content:start;
   align-items: center;
   flex-direction: column;
+  padding-top: 100px;
 }
 .section-1 h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 20px;
 }
 .section-1 p {
   color: #127b8e;
@@ -55,6 +56,21 @@
   background: #fff;
   padding: 7px;
   border-radius: 5px;
+}
+
+td {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #eee;
+}
+
+.tdEspaco {
+  float:left;
+  margin-right:10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .side-bar ul {
@@ -71,7 +87,7 @@
   text-overflow: ellipsis;
 }
 .side-bar ul li:hover {
-  background: #127b8e;
+  background: #68278b;
 }
 .side-bar ul li a {
   text-decoration: none;
