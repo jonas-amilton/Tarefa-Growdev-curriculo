@@ -58,19 +58,26 @@
   border-radius: 5px;
 }
 
-td {
-  padding: 10px;
-  border-radius: 8px;
-  background-color: #eee;
-}
-
-.tdEspaco {
-  float:left;
-  margin-right:10px;
-}
-
-a {
+.button {
+  border-radius: 6px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #191b19;} /* Green */
+.button2 {background-color: #008cba;} /* Blue */
+
+
+.button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .side-bar ul {
